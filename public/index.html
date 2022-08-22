@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>YouTube</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat&family=Open+Sans&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <script
+            defer
+            src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+            integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="../styles//index.css" />
+    </head>
+    <body>
+        <div class="container">
+            <!-- top nav -->
+            <nav class="topNav">
+                <div class="nav-items nav1StPart">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    <img
+                        src="../utils/logo.png"
+                        alt="logo"
+                        class="logo"
+                        width="100"
+                        height="46"
+                    />
+                </div>
+                <div class="nav-items nav2StPart">
+                    <div class="inputSearchWrapper">
+                        <input
+                            type="text"
+                            class="searchinput"
+                            placeholder="Search"
+                        />
+                        <button class="cancelButton">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <button class="voiceButton">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                    <div class="recording">
+                        <i class="fa fa-microphone" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+                <div class="nav-items nav3StPart">
+                    <ul class="rightBar">
+                        <li class="downloadIcon">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                        </li>
+                        <li class="bellNoticification">
+                            <div class="bellNoticificationwrapper">
+                                <i class="fa fa-bell" aria-hidden="true"></i>
+                                <div class="miniAvatar">3</div>
+                            </div>
+                        </li>
+                        <li class="avatar">
+                            <img
+                                src="https://yt3.ggpht.com/yti/AJo0G0lPxsMMxZYeueSXjPV-bM-3Y7axGG2-u-L1zzXxga8=s88-c-k-c0x00ffffff-no-rj-mo"
+                                alt="avatarImage"
+                                class="avatarImage"
+                                width="32"
+                                height="32"
+                            />
+                        </li>
+                    </ul>
+                </div>
+                <!-- top nav ends -->
+            </nav>
+
+            <div class="body-container">
+                <div class="row">
+                    <div class="col col-2">
+                        <div class="sideBarWrapper">
+                            <div class="upperPart">
+                                <div
+                                    class="upperPart-links"
+                                    style="margin-top: 10px"
+                                >
+                                    <i
+                                        class="fa fa-home"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <p>Home</p>
+                                </div>
+                                <div class="upperPart-links">
+                                    <i class="far fa-compass"></i>
+                                    <p>Explore</p>
+                                </div>
+                                <div class="upperPart-links">
+                                    <i class="fas fa-video"></i>
+                                    <p>Shorts</p>
+                                </div>
+                                <div class="upperPart-links">
+                                    <i class="fab fa-youtube"></i>
+                                    <p>Subscribe</p>
+                                </div>
+                            </div>
+
+                            <div class="middlePart">
+                                <div
+                                    class="upperPart-links"
+                                    style="margin-top: 10px"
+                                >
+                                    <i
+                                        class="fa fa-home"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <p>Home</p>
+                                </div>
+                                <div class="upperPart-links">
+                                    <i class="far fa-compass"></i>
+                                    <p>Explore</p>
+                                </div>
+                                <div class="upperPart-links">
+                                    <i class="fas fa-video"></i>
+                                    <p>Shorts</p>
+                                </div>
+                                <div class="upperPart-links">
+                                    <i class="fab fa-youtube"></i>
+                                    <p>Subscribe</p>
+                                </div>
+                            </div>
+
+                            <div class="lowerPart">
+                                <div class="upperPart-links">
+                                    <p
+                                        style="
+                                            font-size: 16px;
+                                            font-weight: bold;
+                                            color: silver;
+                                            margin: 0;
+                                        "
+                                    >
+                                        Subscription
+                                    </p>
+                                </div>
+                                <div class="upperPart-links">
+                                    <i
+                                        class="fa fa-home"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <p>Home</p>
+                                </div>
+                                <div class="upperPart-links">
+                                    <i class="far fa-compass"></i>
+                                    <p>Explore</p>
+                                </div>
+                                <div class="upperPart-links">
+                                    <i class="fas fa-video"></i>
+                                    <p>Shorts</p>
+                                </div>
+                                <div class="upperPart-links">
+                                    <i class="fab fa-youtube"></i>
+                                    <p>Subscribe</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-10">
+                        <div class="ironSelector">
+                            <button
+                                class="ironSelectorButton ironSelectorActive"
+                            >
+                                All
+                            </button>
+                            <button class="ironSelectorButton">Mixes</button>
+                            <button class="ironSelectorButton">Music</button>
+                            <button class="ironSelectorButton">
+                                Bollywood Music
+                            </button>
+                            <button class="ironSelectorButton">Live</button>
+                            <button class="ironSelectorButton">
+                                Drago Ball Z
+                            </button>
+                            <button class="ironSelectorButton">
+                                Street Food
+                            </button>
+                            <button class="ironSelectorButton">Cricket</button>
+                            <button class="ironSelectorButton">Gaming</button>
+                            <button class="ironSelectorButton">
+                                Compact SUV
+                            </button>
+                            <button class="ironSelectorButton">
+                                Computer Programming
+                            </button>
+                            <button class="ironSelectorButton">Tourism</button>
+                            <button class="ironSelectorButton">
+                                Royal Enfield
+                            </button>
+                            <button class="ironSelectorButton">Comedy</button>
+                            <button class="ironSelectorButton">
+                                Electronic Dance Car
+                            </button>
+                            <button class="ironSelectorButton">
+                                Recent Uploads
+                            </button>
+                            <button class="ironSelectorButton">Watched</button>
+                            <button class="ironSelectorButton">Posts</button>
+                            <button class="ironSelectorButton">
+                                New To You
+                            </button>
+                        </div>
+
+                        <div class="boxContainer">
+                            <div class="boxrow">
+                                <div class="boxcol">
+                                    <div class="box">
+                                        <div class="boximage">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1535408385048-7bce96679592?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHlvdXR1YmUlMjB2aWRlbyUyMHRodW1ibmFpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                                                alt=""
+                                                class="boximageImage"
+                                            />
+                                        </div>
+                                        <div class="boxname">
+                                            <img
+                                                src="https://yt3.ggpht.com/ytc/AMLnZu_-Vl-Rxwg26U7cyG9c0u7YGJg3HbFzU9x55JCT=s68-c-k-c0x00ffffff-no-rj"
+                                                height="36"
+                                                width="36"
+                                                alt=""
+                                                style="align-self: flex-start"
+                                            />
+                                            <div class="boxNameContent">
+                                                <p>
+                                                    Kesariya (LYRICS) Bhramastra
+                                                    | Arijit Singh | Ranbir
+                                                    kapur.
+                                                </p>
+                                                <div class="lastSecond">
+                                                    Web3
+                                                </div>
+
+                                                <div class="lastSecond">
+                                                    5.5M views • 1 month ago
+                                                </div>
+                                            </div>
+                                            <i
+                                                style="align-self: flex-start"
+                                                class="fa fa-ellipsis-v"
+                                                aria-hidden="true"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxcol">
+                                    <div class="box">
+                                        <div class="boximage">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1535408385048-7bce96679592?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHlvdXR1YmUlMjB2aWRlbyUyMHRodW1ibmFpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                                                alt=""
+                                                class="boximageImage"
+                                            />
+                                        </div>
+                                        <div class="boxname">
+                                            <img
+                                                src="https://yt3.ggpht.com/ytc/AMLnZu_-Vl-Rxwg26U7cyG9c0u7YGJg3HbFzU9x55JCT=s68-c-k-c0x00ffffff-no-rj"
+                                                height="36"
+                                                width="36"
+                                                alt=""
+                                                style="align-self: flex-start"
+                                            />
+                                            <div class="boxNameContent">
+                                                <p>
+                                                    Kesariya (LYRICS) Bhramastra
+                                                    | Arijit Singh | Ranbir
+                                                    kapur.
+                                                </p>
+                                                <div class="lastSecond">
+                                                    Web3
+                                                </div>
+
+                                                <div class="lastSecond">
+                                                    5.5M views • 1 month ago
+                                                </div>
+                                            </div>
+                                            <i
+                                                style="align-self: flex-start"
+                                                class="fa fa-ellipsis-v"
+                                                aria-hidden="true"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxcol">
+                                    <div class="box">
+                                        <div class="boximage">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1535408385048-7bce96679592?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHlvdXR1YmUlMjB2aWRlbyUyMHRodW1ibmFpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                                                alt=""
+                                                class="boximageImage"
+                                            />
+                                        </div>
+                                        <div class="boxname">
+                                            <img
+                                                src="https://yt3.ggpht.com/ytc/AMLnZu_-Vl-Rxwg26U7cyG9c0u7YGJg3HbFzU9x55JCT=s68-c-k-c0x00ffffff-no-rj"
+                                                height="36"
+                                                width="36"
+                                                alt=""
+                                                style="align-self: flex-start"
+                                            />
+                                            <div class="boxNameContent">
+                                                <p>
+                                                    Kesariya (LYRICS) Bhramastra
+                                                    | Arijit Singh | Ranbir
+                                                    kapur.
+                                                </p>
+                                                <div class="lastSecond">
+                                                    Web3
+                                                </div>
+
+                                                <div class="lastSecond">
+                                                    5.5M views • 1 month ago
+                                                </div>
+                                            </div>
+                                            <i
+                                                style="align-self: flex-start"
+                                                class="fa fa-ellipsis-v"
+                                                aria-hidden="true"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxcol">
+                                    <div class="box">
+                                        <div class="boximage">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1535408385048-7bce96679592?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHlvdXR1YmUlMjB2aWRlbyUyMHRodW1ibmFpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                                                alt=""
+                                                class="boximageImage"
+                                            />
+                                        </div>
+                                        <div class="boxname">
+                                            <img
+                                                src="https://yt3.ggpht.com/ytc/AMLnZu_-Vl-Rxwg26U7cyG9c0u7YGJg3HbFzU9x55JCT=s68-c-k-c0x00ffffff-no-rj"
+                                                height="36"
+                                                width="36"
+                                                alt=""
+                                                style="align-self: flex-start"
+                                            />
+                                            <div class="boxNameContent">
+                                                <p>
+                                                    Kesariya (LYRICS) Bhramastra
+                                                    | Arijit Singh | Ranbir
+                                                    kapur.
+                                                </p>
+                                                <div class="lastSecond">
+                                                    Web3
+                                                </div>
+
+                                                <div class="lastSecond">
+                                                    5.5M views • 1 month ago
+                                                </div>
+                                            </div>
+                                            <i
+                                                style="align-self: flex-start"
+                                                class="fa fa-ellipsis-v"
+                                                aria-hidden="true"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxcol">
+                                    <div class="box">
+                                        <div class="boximage">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1535408385048-7bce96679592?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHlvdXR1YmUlMjB2aWRlbyUyMHRodW1ibmFpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                                                alt=""
+                                                class="boximageImage"
+                                            />
+                                        </div>
+                                        <div class="boxname">
+                                            <img
+                                                src="https://yt3.ggpht.com/ytc/AMLnZu_-Vl-Rxwg26U7cyG9c0u7YGJg3HbFzU9x55JCT=s68-c-k-c0x00ffffff-no-rj"
+                                                height="36"
+                                                width="36"
+                                                alt=""
+                                                style="align-self: flex-start"
+                                            />
+                                            <div class="boxNameContent">
+                                                <p>
+                                                    Kesariya (LYRICS) Bhramastra
+                                                    | Arijit Singh | Ranbir
+                                                    kapur.
+                                                </p>
+                                                <div class="lastSecond">
+                                                    Web3
+                                                </div>
+
+                                                <div class="lastSecond">
+                                                    5.5M views • 1 month ago
+                                                </div>
+                                            </div>
+                                            <i
+                                                style="align-self: flex-start"
+                                                class="fa fa-ellipsis-v"
+                                                aria-hidden="true"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxcol">
+                                    <div class="box">
+                                        <div class="boximage">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1535408385048-7bce96679592?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHlvdXR1YmUlMjB2aWRlbyUyMHRodW1ibmFpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                                                alt=""
+                                                class="boximageImage"
+                                            />
+                                        </div>
+                                        <div class="boxname">
+                                            <img
+                                                src="https://yt3.ggpht.com/ytc/AMLnZu_-Vl-Rxwg26U7cyG9c0u7YGJg3HbFzU9x55JCT=s68-c-k-c0x00ffffff-no-rj"
+                                                height="36"
+                                                width="36"
+                                                alt=""
+                                                style="align-self: flex-start"
+                                            />
+                                            <div class="boxNameContent">
+                                                <p>
+                                                    Kesariya (LYRICS) Bhramastra
+                                                    | Arijit Singh | Ranbir
+                                                    kapur.
+                                                </p>
+                                                <div class="lastSecond">
+                                                    Web3
+                                                </div>
+
+                                                <div class="lastSecond">
+                                                    5.5M views • 1 month ago
+                                                </div>
+                                            </div>
+                                            <i
+                                                style="align-self: flex-start"
+                                                class="fa fa-ellipsis-v"
+                                                aria-hidden="true"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxcol">
+                                    <div class="box">
+                                        <div class="boximage">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1535408385048-7bce96679592?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHlvdXR1YmUlMjB2aWRlbyUyMHRodW1ibmFpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                                                alt=""
+                                                class="boximageImage"
+                                            />
+                                        </div>
+                                        <div class="boxname">
+                                            <img
+                                                src="https://yt3.ggpht.com/ytc/AMLnZu_-Vl-Rxwg26U7cyG9c0u7YGJg3HbFzU9x55JCT=s68-c-k-c0x00ffffff-no-rj"
+                                                height="36"
+                                                width="36"
+                                                alt=""
+                                                style="align-self: flex-start"
+                                            />
+                                            <div class="boxNameContent">
+                                                <p>
+                                                    Kesariya (LYRICS) Bhramastra
+                                                    | Arijit Singh | Ranbir
+                                                    kapur.
+                                                </p>
+                                                <div class="lastSecond">
+                                                    Web3
+                                                </div>
+
+                                                <div class="lastSecond">
+                                                    5.5M views • 1 month ago
+                                                </div>
+                                            </div>
+                                            <i
+                                                style="align-self: flex-start"
+                                                class="fa fa-ellipsis-v"
+                                                aria-hidden="true"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxcol">
+                                    <div class="box">
+                                        <div class="boximage">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1535408385048-7bce96679592?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHlvdXR1YmUlMjB2aWRlbyUyMHRodW1ibmFpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                                                alt=""
+                                                class="boximageImage"
+                                            />
+                                        </div>
+                                        <div class="boxname">
+                                            <img
+                                                src="https://yt3.ggpht.com/ytc/AMLnZu_-Vl-Rxwg26U7cyG9c0u7YGJg3HbFzU9x55JCT=s68-c-k-c0x00ffffff-no-rj"
+                                                height="36"
+                                                width="36"
+                                                alt=""
+                                                style="align-self: flex-start"
+                                            />
+                                            <div class="boxNameContent">
+                                                <p>
+                                                    Kesariya (LYRICS) Bhramastra
+                                                    | Arijit Singh | Ranbir
+                                                    kapur.
+                                                </p>
+                                                <div class="lastSecond">
+                                                    Web3
+                                                </div>
+
+                                                <div class="lastSecond">
+                                                    5.5M views • 1 month ago
+                                                </div>
+                                            </div>
+                                            <i
+                                                style="align-self: flex-start"
+                                                class="fa fa-ellipsis-v"
+                                                aria-hidden="true"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxcol">
+                                    <div class="box">
+                                        <div class="boximage">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1535408385048-7bce96679592?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHlvdXR1YmUlMjB2aWRlbyUyMHRodW1ibmFpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                                                alt=""
+                                                class="boximageImage"
+                                            />
+                                        </div>
+                                        <div class="boxname">
+                                            <img
+                                                src="https://yt3.ggpht.com/ytc/AMLnZu_-Vl-Rxwg26U7cyG9c0u7YGJg3HbFzU9x55JCT=s68-c-k-c0x00ffffff-no-rj"
+                                                height="36"
+                                                width="36"
+                                                alt=""
+                                                style="align-self: flex-start"
+                                            />
+                                            <div class="boxNameContent">
+                                                <p>
+                                                    Kesariya (LYRICS) Bhramastra
+                                                    | Arijit Singh | Ranbir
+                                                    kapur.
+                                                </p>
+                                                <div class="lastSecond">
+                                                    Web3
+                                                </div>
+
+                                                <div class="lastSecond">
+                                                    5.5M views • 1 month ago
+                                                </div>
+                                            </div>
+                                            <i
+                                                style="align-self: flex-start"
+                                                class="fa fa-ellipsis-v"
+                                                aria-hidden="true"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxcol">
+                                    <div class="box">
+                                        <div class="boximage">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1535408385048-7bce96679592?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHlvdXR1YmUlMjB2aWRlbyUyMHRodW1ibmFpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                                                alt=""
+                                                class="boximageImage"
+                                            />
+                                        </div>
+                                        <div class="boxname">
+                                            <img
+                                                src="https://yt3.ggpht.com/ytc/AMLnZu_-Vl-Rxwg26U7cyG9c0u7YGJg3HbFzU9x55JCT=s68-c-k-c0x00ffffff-no-rj"
+                                                height="36"
+                                                width="36"
+                                                alt=""
+                                                style="align-self: flex-start"
+                                            />
+                                            <div class="boxNameContent">
+                                                <p>
+                                                    Kesariya (LYRICS) Bhramastra
+                                                    | Arijit Singh | Ranbir
+                                                    kapur.
+                                                </p>
+                                                <div class="lastSecond">
+                                                    Web3
+                                                </div>
+
+                                                <div class="lastSecond">
+                                                    5.5M views • 1 month ago
+                                                </div>
+                                            </div>
+                                            <i
+                                                style="align-self: flex-start"
+                                                class="fa fa-ellipsis-v"
+                                                aria-hidden="true"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxcol">
+                                    <div class="box">
+                                        <div class="boximage">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1535408385048-7bce96679592?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHlvdXR1YmUlMjB2aWRlbyUyMHRodW1ibmFpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                                                alt=""
+                                                class="boximageImage"
+                                            />
+                                        </div>
+                                        <div class="boxname">
+                                            <img
+                                                src="https://yt3.ggpht.com/ytc/AMLnZu_-Vl-Rxwg26U7cyG9c0u7YGJg3HbFzU9x55JCT=s68-c-k-c0x00ffffff-no-rj"
+                                                height="36"
+                                                width="36"
+                                                alt=""
+                                                style="align-self: flex-start"
+                                            />
+                                            <div class="boxNameContent">
+                                                <p>
+                                                    Kesariya (LYRICS) Bhramastra
+                                                    | Arijit Singh | Ranbir
+                                                    kapur.
+                                                </p>
+                                                <div class="lastSecond">
+                                                    Web3
+                                                </div>
+
+                                                <div class="lastSecond">
+                                                    5.5M views • 1 month ago
+                                                </div>
+                                            </div>
+                                            <i
+                                                style="align-self: flex-start"
+                                                class="fa fa-ellipsis-v"
+                                                aria-hidden="true"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxcol">
+                                    <div class="box">
+                                        <div class="boximage">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1535408385048-7bce96679592?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHlvdXR1YmUlMjB2aWRlbyUyMHRodW1ibmFpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                                                alt=""
+                                                class="boximageImage"
+                                            />
+                                        </div>
+                                        <div class="boxname">
+                                            <img
+                                                src="https://yt3.ggpht.com/ytc/AMLnZu_-Vl-Rxwg26U7cyG9c0u7YGJg3HbFzU9x55JCT=s68-c-k-c0x00ffffff-no-rj"
+                                                height="36"
+                                                width="36"
+                                                alt=""
+                                                style="align-self: flex-start"
+                                            />
+                                            <div class="boxNameContent">
+                                                <p>
+                                                    Kesariya (LYRICS) Bhramastra
+                                                    | Arijit Singh | Ranbir
+                                                    kapur.
+                                                </p>
+                                                <div class="lastSecond">
+                                                    Web3
+                                                </div>
+
+                                                <div class="lastSecond">
+                                                    5.5M views • 1 month ago
+                                                </div>
+                                            </div>
+                                            <i
+                                                style="align-self: flex-start"
+                                                class="fa fa-ellipsis-v"
+                                                aria-hidden="true"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxcol">
+                                    <div class="box">
+                                        <div class="boximage">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1535408385048-7bce96679592?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHlvdXR1YmUlMjB2aWRlbyUyMHRodW1ibmFpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                                                alt=""
+                                                class="boximageImage"
+                                            />
+                                        </div>
+                                        <div class="boxname">
+                                            <img
+                                                src="https://yt3.ggpht.com/ytc/AMLnZu_-Vl-Rxwg26U7cyG9c0u7YGJg3HbFzU9x55JCT=s68-c-k-c0x00ffffff-no-rj"
+                                                height="36"
+                                                width="36"
+                                                alt=""
+                                                style="align-self: flex-start"
+                                            />
+                                            <div class="boxNameContent">
+                                                <p>
+                                                    Kesariya (LYRICS) Bhramastra
+                                                    | Arijit Singh | Ranbir
+                                                    kapur.
+                                                </p>
+                                                <div class="lastSecond">
+                                                    Web3
+                                                </div>
+
+                                                <div class="lastSecond">
+                                                    5.5M views • 1 month ago
+                                                </div>
+                                            </div>
+                                            <i
+                                                style="align-self: flex-start"
+                                                class="fa fa-ellipsis-v"
+                                                aria-hidden="true"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxcol">
+                                    <div class="box">
+                                        <div class="boximage">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1535408385048-7bce96679592?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHlvdXR1YmUlMjB2aWRlbyUyMHRodW1ibmFpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                                                alt=""
+                                                class="boximageImage"
+                                            />
+                                        </div>
+                                        <div class="boxname">
+                                            <img
+                                                src="https://yt3.ggpht.com/ytc/AMLnZu_-Vl-Rxwg26U7cyG9c0u7YGJg3HbFzU9x55JCT=s68-c-k-c0x00ffffff-no-rj"
+                                                height="36"
+                                                width="36"
+                                                alt=""
+                                                style="align-self: flex-start"
+                                            />
+                                            <div class="boxNameContent">
+                                                <p>
+                                                    Kesariya (LYRICS) Bhramastra
+                                                    | Arijit Singh | Ranbir
+                                                    kapur.
+                                                </p>
+                                                <div class="lastSecond">
+                                                    Web3
+                                                </div>
+
+                                                <div class="lastSecond">
+                                                    5.5M views • 1 month ago
+                                                </div>
+                                            </div>
+                                            <i
+                                                style="align-self: flex-start"
+                                                class="fa fa-ellipsis-v"
+                                                aria-hidden="true"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxcol">
+                                    <div class="box">
+                                        <div class="boximage">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1535408385048-7bce96679592?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHlvdXR1YmUlMjB2aWRlbyUyMHRodW1ibmFpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                                                alt=""
+                                                class="boximageImage"
+                                            />
+                                        </div>
+                                        <div class="boxname">
+                                            <img
+                                                src="https://yt3.ggpht.com/ytc/AMLnZu_-Vl-Rxwg26U7cyG9c0u7YGJg3HbFzU9x55JCT=s68-c-k-c0x00ffffff-no-rj"
+                                                height="36"
+                                                width="36"
+                                                alt=""
+                                                style="align-self: flex-start"
+                                            />
+                                            <div class="boxNameContent">
+                                                <p>
+                                                    Kesariya (LYRICS) Bhramastra
+                                                    | Arijit Singh | Ranbir
+                                                    kapur.
+                                                </p>
+                                                <div class="lastSecond">
+                                                    Web3
+                                                </div>
+
+                                                <div class="lastSecond">
+                                                    5.5M views • 1 month ago
+                                                </div>
+                                            </div>
+                                            <i
+                                                style="align-self: flex-start"
+                                                class="fa fa-ellipsis-v"
+                                                aria-hidden="true"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="footer">
+                                <div
+                                    class="footerlink"
+                                    style="justify-content: center; gap: 20px"
+                                >
+                                    <img
+                                        src="file:///D:/jsbootcamp/Group_Task/food-delivery/img/footer-logo.png"
+                                        alt=""
+                                        width="120"
+                                        height="40"
+                                    />
+                                    <img
+                                        src="file:///D:/jsbootcamp/Group_Task/food-delivery/img/download-app-store.png"
+                                        alt=""
+                                        width="120"
+                                        height="40"
+                                    />
+
+                                    <img
+                                        src="file:///D:/jsbootcamp/Group_Task/food-delivery/img/download-google-play.png"
+                                        alt=""
+                                        width="120"
+                                        height="40"
+                                    />
+                                </div>
+
+                                <div class="footerlink">
+                                    <p>Let's do this together</p>
+                                    <ul>
+                                        <li>For couriers</li>
+                                        <li>For restaurants</li>
+                                        <li>For stores</li>
+                                        <li>For companies</li>
+                                        <li>Wolt Drive</li>
+                                    </ul>
+                                </div>
+
+                                <div class="footerlink">
+                                    <p>Company</p>
+                                    <ul>
+                                        <li>About us</li>
+                                        <li>Jobs</li>
+                                        <li>Responsibility</li>
+                                        <li>Security</li>
+                                        <li>Investors</li>
+                                    </ul>
+                                </div>
+
+                                <div class="footerlink">
+                                    <p>Useful links</p>
+                                    <ul>
+                                        <li>Support</li>
+                                        <li>Media</li>
+                                        <li>Contact</li>
+                                    </ul>
+                                </div>
+
+                                <div class="footerlink">
+                                    <p>Follow us</p>
+                                    <ul>
+                                        <li>Wolt blog</li>
+                                        <li>Engineering blog</li>
+                                        <li>Instagram</li>
+                                        <li>Facebook</li>
+                                        <li>Twitter</li>
+                                        <li>LinkedIn</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div
+                                class="circle"
+                                style="
+                                    display: flex;
+                                    justify-content: center;
+                                    margin-top: 30px;
+                                "
+                            >
+                                <div
+                                    style="
+                                        width: 50px;
+                                        height: 50px;
+                                        border-radius: 50%;
+                                        background-image: linear-gradient(
+                                            to top,
+                                            #3acfd5 0%,
+                                            #fc2a2a 100%
+                                        );
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        padding: 0;
+                                    "
+                                    class="mainCircle"
+                                >
+                                    <div
+                                        style="
+                                            height: 44px;
+                                            width: 44px;
+                                            background-color: #181818;
+                                            border-radius: 50%;
+                                        "
+                                    ></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

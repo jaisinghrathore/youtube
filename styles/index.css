@@ -1,0 +1,389 @@
+:root {
+    --mainBackgroundColor: #181818;
+    --navSidebar: #202020;
+    --buttonandborderColor: #373737;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body {
+    font-family: "Hubballi", cursive;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--mainBackgroundColor);
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.topNav {
+    width: 100%;
+    padding: 6px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--navSidebar);
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav1StPart {
+    flex: 1.5;
+    gap: 16px;
+}
+
+.nav2StPart {
+    flex: 4;
+    justify-content: flex-end;
+}
+
+.nav3StPart {
+    flex: 1.8;
+    justify-content: flex-end;
+    justify-content: flex-end;
+}
+/* first part of nav */
+.fa-bars {
+    color: white;
+    font-size: 20px;
+}
+
+/* 2nd part of nav */
+
+.inputSearchWrapper {
+    width: 80%;
+    height: 40px;
+    position: relative;
+}
+
+.searchinput {
+    width: 100%;
+    height: 100%;
+    background-color: var(--mainBackgroundColor);
+    border: 1px solid var(--buttonandborderColor);
+    padding: 2px 10px 0px 10px;
+}
+
+.searchinput:focus {
+    outline: none;
+}
+
+.searchinput::placeholder {
+    font-size: 17px;
+}
+
+.cancelButton {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+}
+
+.voiceButton {
+    width: 8%;
+    height: 40px;
+    background-color: var(--buttonandborderColor);
+    border: none;
+}
+
+.fa-search {
+    font-size: 16px;
+}
+
+.recording {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mainBackgroundColor);
+    margin-left: 10px;
+}
+/* third part of nav */
+
+.rightBar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.bellNoticificationwrapper {
+    position: relative;
+}
+
+.miniAvatar {
+    position: absolute;
+    top: -6px;
+    right: -8px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #cc0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.avatarImage {
+    border-radius: 50%;
+}
+
+/* nav end */
+
+.body-container {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+/* left */
+.col-2 {
+    flex: 2;
+    height: 100vh;
+    overflow: auto;
+    background-color: var(--buttonandborderColor);
+    position: sticky;
+    top: 0px;
+}
+
+.sideBarWrapper {
+    width: 100%;
+    height: 100%;
+    padding: 8px 20px 8px 0;
+}
+
+.saa {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.upperPart,
+.middlePart,
+.lowerPart {
+    border-bottom: 1px solid silver;
+    margin-bottom: 30px;
+}
+
+.upperPart-links > p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.upperPart-links {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 26px;
+    padding-left: 20px;
+}
+
+/* right */
+
+.col-10 {
+    flex: 10;
+    overflow: hidden;
+}
+
+.ironSelector {
+    min-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 14px 10px;
+    border-top: 1px solid var(--buttonandborderColor);
+    border-bottom: 1px solid var(--buttonandborderColor);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.ironSelectorButton {
+    padding: 8px 12px;
+    border: none;
+    height: 30px;
+    white-space: nowrap;
+    background-color: var(--buttonandborderColor);
+    border-radius: 20px;
+    margin: 0 5px;
+}
+
+.boxContainer {
+    width: 100%;
+    min-height: 100%;
+    padding: 15px 30px;
+}
+
+.boxrow {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* box */
+
+.box {
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.4s;
+}
+
+.boximage {
+    height: 154px;
+    width: 100%;
+}
+
+.boximageImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.boxname {
+    display: flex;
+    padding: 10px 8px 10px 0px;
+    align-items: center;
+    gap: 10px;
+}
+
+.boxname > img {
+    border-radius: 50%;
+}
+
+.lastSecond {
+    color: #aaaaaa;
+    font-size: 12px;
+}
+
+.boxNameContent > p {
+    margin-bottom: 6px;
+}
+
+.footer {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footerlink {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerlink p {
+    color: silver;
+}
+
+.footerlink ul {
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.footerlink ul li {
+    margin-top: 10px;
+}
+
+@keyframes circle {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.mainCircle {
+    animation: circle 1s linear 0s infinite normal none;
+}
+
+@media only screen and (min-width: 1500px) {
+    .boxrow {
+        grid-template-columns: auto auto auto auto auto;
+    }
+    .box {
+        width: 100%;
+        height: 280px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    .boximage {
+        height: 200px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .col-2 {
+        flex: 100%;
+        display: none;
+    }
+
+    .col-10 {
+        flex: 1;
+    }
+    .footerlink {
+        flex: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerlink:first-child {
+        display: none;
+    }
+
+    li {
+        text-align: center;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+    .boxrow {
+        grid-template-columns: auto;
+    }
+
+    .box {
+        width: 100%;
+        height: 380px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    .boximage {
+        height: 300px;
+        width: 100%;
+    }
+    .nav2StPart {
+        display: none;
+    }
+    .nav3StPart {
+        display: none;
+    }
+    .footer {
+        gap: 20px;
+    }
+}
